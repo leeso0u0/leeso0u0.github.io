@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    background-color: #78dbd9;
+    color: white;
+}
+.set-menu-ul {
+    position: relative;
+    float: right;
+    padding: 10px 60px;
+}
+
+.set-menu-li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.top-container {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.top-menu-ul {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+
+.top-menu-li {
+    display: inline;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+
+.top-logo {
+    position: absolute;
+    left: 46%;
+}
+
+.top-logo img {
+    width: 140px;
+}
+.top-member 
+{
+    position: absolute;
+    right: 28px;
+}
+
+.top-member li{
+    display: inline;
+    vertical-align: middle;
+    width: 50px;
+    padding :0 10px;
+}
+
+.main-img-container {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+.main-img-bar {
+    position: relative;
+    top: 50px;
+    width: 50px;
+    left : -490px;
+    display: inline-block;
+    transform: rotate(90deg);
+    border-bottom: white solid 1px;
+}
+
+.main-img-text {
+    position: relative;
+    top: 160px;
+    left: -470px;
+    display: block;
+    transform: rotate(90deg);
+}
+
+.main-img-detail {
+    position: relative;
+    display: block;
+    color: black;
+    margin: 30px 0px;
+    left: 380px;
+}
+
+.blank-space {
+    position: relative;
+    height: 400px;
+}
+
+.ad-banner {
+    position: relative;
+
+}
+
+.celeb {
+    position: relative;
+    width: 1320px;
+    margin: 110px auto;
+}
+
+.celeb h1 {
+    margin: 50px;
+}
+.celeb ul {
+    margin: 40px;
+}
+
+.celeb ul li {
+    display: inline;
+    margin: 15px;
+} 
+
+.celeb ol {
+    margin: 40px;
+}
+
+.celeb ol li {
+    display: inline;
+}
+
+.celeb-list-box {
+    width: 20%;
+    float: left;
+    margin: 70px auto 0px;
+}
+
+.circle {
+    background-color: #78dbd9;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.circle a {
+    position: relative;
+    color: white;
+    font-size: 32px;
+    top: 75px;
+}
+
+.circle img {
+    position: relative;
+    top: 50px;
+    width: 95px;
+    margin: 30px 10px;
+}
+
+.celeb-item {
+    width: 230px;
+    margin: 30px 5px;
+}
+
+.new-issue {
+    position: relative;
+    width: 1320px;
+    margin: 50px auto;
+}
+
+.new-issue ul {
+    margin: 40px;
+}
+
+.new-issue ul li {
+    display: inline;
+}
+
+.new-issue-wrap {
+    position: relative;
+    display: inline;
+    margin: 10px;
+}
+
+.new-issue-wrap img {
+    display: inline;
+    vertical-align: middle;
+}
+
+.new-issue-wrap span {
+    color: white;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    font-size: 25pt;
+    top: 200px;
+    left: 10%;
+}
+
+.new-album {
+    position: relative;
+    width: 100%;
+    margin: 110px auto 0px;
+    background-color: #fceef2;
+}
+
+.new-album h1 {
+    padding-top: 100px;
+}
+
+.new-album ul{
+    margin-top: 100px;
+}
+
+.new-album ul li {
+    display: inline;
+}
+
+.new-album-wrap {
+    position: relative;
+    display: inline;
+    margin: 10px 50px;
+}
+
+.new-album-wrap img {
+    display: inline;
+    vertical-align: middle;
+    width : 220px;
+}
+
+.new-album-info {
+    display: block;
+    margin-top: 50px;
+}
+
+.new-album-title {
+    display: block;
+    margin-top : 10px;
+    font-size: 30pt;
+}
+
+.album-line {
+    width: 1000px;
+    margin: 30px auto 0px;
+    border-bottom: gray solid 1px;
+}
+
+
+.recommended-shop {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: 0px auto;
+    background-color: #fceef2;
+}
+
+.recommended-shop h1{
+    padding: 120px;
+}
+
+.recommended-shop ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.container {
+    /* width: 100%; */
+    text-align: center;
+}
