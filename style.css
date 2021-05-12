@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    
 }
 
 .header {
@@ -264,4 +266,67 @@
 .container {
     /* width: 100%; */
     text-align: center;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #2d3043;
+    color: white;
+    text-align: left;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-left {
+    display:  inline;
+    float: left;
+}
+
+.footer-left li {
+    display: inline;
+    margin: 10px 15px;
+}
+
+.footer-right {
+    display: inline;
+    float: right;
+}
+
+.footer-right li {
+    display: inline;
+    margin: 10px 15px;
+}
+
+footer h1 {
+    margin: 50px auto;
+    font-size: 55px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.company-info {
+    width: 1030px;
+}
+
+.company-info li {
+    display: inline;
+
+}
+
+.info-name{
+    color: #999a9f;
+    padding: 20px 10px 20px 0px;
+}
+
+.info-desc{
+    padding: 20px 40px 20px 0px;
 }
