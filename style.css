@@ -271,19 +271,20 @@
 footer {
     position: relative;
     width: 100%;
+    height: 550px;
     background-color: #2d3043;
     color: white;
     text-align: left;
 }
 
 .footer-container {
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .footer-menu {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .footer-left {
@@ -293,7 +294,8 @@ footer {
 
 .footer-left li {
     display: inline;
-    margin: 10px 15px;
+    margin: 10px 30px 0px 0px;
+    vertical-align: middle;
 }
 
 .footer-right {
@@ -303,7 +305,8 @@ footer {
 
 .footer-right li {
     display: inline;
-    margin: 10px 15px;
+    padding: 10px 30px 0px 0px;
+    vertical-align: middle;
 }
 
 footer h1 {
@@ -313,20 +316,26 @@ footer h1 {
     text-align: center;
 }
 
-.company-info {
-    width: 1030px;
-}
-
 .company-info li {
     display: inline;
 
 }
 
-.info-name{
+.info-name {
     color: #999a9f;
-    padding: 20px 10px 20px 0px;
+    line-height: 180%;
 }
 
-.info-desc{
-    padding: 20px 40px 20px 0px;
+.info-desc {
+    line-height: 200%;
+    padding-right: 40px;
+}
+
+.copyright {
+    padding: 50px 0px;
+}
+
+.footer-line {
+    border-left: 1px solid #81838e;
+
 }
