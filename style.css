@@ -106,7 +106,7 @@
 
 .celeb {
     position: relative;
-    width: 1320px;
+    width: 90%;
     margin: 110px auto;
 }
 
@@ -123,7 +123,11 @@
 } 
 
 .celeb ol {
-    margin: 40px;
+    margin: 40px auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .celeb ol li {
@@ -131,9 +135,8 @@
 }
 
 .celeb-list-box {
-    width: 20%;
-    float: left;
-    margin: 70px auto 0px;
+    width: 230px;
+    margin: 70px 5px 0px;
 }
 
 .circle {
@@ -164,7 +167,7 @@
 
 .new-issue {
     position: relative;
-    width: 1320px;
+    width: 100%;
     margin: 50px auto;
 }
 
@@ -240,7 +243,7 @@
 }
 
 .album-line {
-    width: 1000px;
+    width: 80%;
     margin: 30px auto 0px;
     border-bottom: gray solid 1px;
 }
